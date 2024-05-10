@@ -12,3 +12,4 @@ C:\Users\Ramses\source\repos\Grand Circus\Circle Objects Lab\Circle Objects Lab\
 C:\Users\Ramses\source\repos\Grand Circus\Circle Objects Lab\Circle Objects Lab\obj\Debug\net8.0\Circle Objects Lab.pdb
 C:\Users\Ramses\source\repos\Grand Circus\Circle Objects Lab\Circle Objects Lab\obj\Debug\net8.0\Circle Objects Lab.genruntimeconfig.cache
 C:\Users\Ramses\source\repos\Grand Circus\Circle Objects Lab\Circle Objects Lab\obj\Debug\net8.0\ref\Circle Objects Lab.dll
+C:\Users\Ramses\source\repos\Grand Circus\Circle Objects Lab\Circle Objects Lab\obj\Debug\net8.0\Circle Objects Lab.sourcelink.json

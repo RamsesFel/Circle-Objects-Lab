@@ -8,7 +8,7 @@ namespace Circle_Objects_Lab
 {
     public class Circle
     {
-        public double radius { get; set; }
+        private double radius { get; set; }
 
         public Circle(double _radius)
         {
@@ -30,6 +30,10 @@ namespace Circle_Objects_Lab
         public void Grow()
         {
             radius = radius + radius;
+        }
+        public double GetRadius()
+        {
+            return radius;
         }
     }
 }

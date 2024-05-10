@@ -26,9 +26,9 @@ Circle circleresult = new Circle(input);
 while (runProgram)
 {
 
-    Console.WriteLine(circleresult.CalculateDiameter(circleresult.radius));
-    Console.WriteLine(circleresult.CalculateCircumference(circleresult.radius));
-    Console.WriteLine(circleresult.CalculateArea(circleresult.radius));
+    Console.WriteLine(circleresult.CalculateDiameter(circleresult.GetRadius()));
+    Console.WriteLine(circleresult.CalculateCircumference(circleresult.GetRadius()));
+    Console.WriteLine(circleresult.CalculateArea(circleresult.GetRadius()));
     while (true)
     {
         Console.WriteLine("Do you want the circle to grow? y/n");
@@ -41,7 +41,7 @@ while (runProgram)
         else if (answer == "n")
         {
             runProgram = false;
-            Console.WriteLine($"Radius is {circleresult.radius}");
+            Console.WriteLine($"Radius is {circleresult.GetRadius()}");
             Console.WriteLine("Goodbye");
             break;
         }
